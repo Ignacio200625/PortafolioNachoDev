@@ -54,9 +54,9 @@ function Header() {
                             <img src={marca} alt="" className=" h-15 w-15 object-contain shadow-lg shadow-orange-500/50" />
                         </div>
                         <div className="div flex gap-5 whitespace-nowrap">
-                            <p>Home</p>
-                            <p>Proyectos</p>
-                            <p>Contactos</p>
+                            <Link to={"/"} className='hover:text-orange-500'>Home</Link>
+                            <Link to={"https://github.com/Ignacio200625?tab=repositories"} className='hover:text-orange-500'>Projects</Link>
+                            <Link to={"/About"} className='hover:text-orange-500'>Sobre mi</Link>
                         </div>
                         <div className="div">
                             <a

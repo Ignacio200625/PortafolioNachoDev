@@ -9,7 +9,7 @@ function About() {
 
     return (
         <>
-            <div className=" flex flex-col md:flex-row justify-center items-center px-20 py-10">
+            <div className=" flex flex-col md:flex-row justify-center text-center md:text-left items-center px-20 py-10">
                 <div className=" w-full md:w-[50%]">
                     <motion.section
                         className="md:w-1/2"
@@ -21,16 +21,18 @@ function About() {
                             MI NOMBRE  <br />ES <span className="text-orange-500">IGNACIO <br /> MARTIN  ...</span>
                         </h1>
                         <h2 className="text-2xl font-bold">Desarrollador web</h2>
-                        <div className="flex items-center gap-6 text-sm text-gray-700 mt-10">
-                            <div className="flex items-center gap-2 whitespace-nowrap">
-                                <span>+34 698 96 26 42</span>
-                            </div>
+                        <div className="flex flex-col md:flex-row   text-sm text-gray-700 mt-10">
 
-                            <span className="h-4 w-px bg-gray-300"></span>
 
-                            <div className="flex items-center gap-2">
-                                <span>nachomartinbrvo25@gmail.com</span>
-                            </div>
+
+
+                            <div className="w-full md:w-[50%]"><span className="whitespace-nowrap" >+34 698 96 26 42</span></div>
+
+
+
+
+                            <span className="w-full md:w-[50%] mt-5 md:mt-0">nachomartinbrvo25@gmail.com</span>
+
                         </div>
 
                     </motion.section>
