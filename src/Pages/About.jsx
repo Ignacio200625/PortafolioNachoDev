@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Instagram } from "lucide-react";
+import { Twitter } from "lucide-react";
+
 import { Linkedin } from "lucide-react";
 import { Github } from "lucide-react";
 import hombre from '../assets/Hero1.jpg'
@@ -57,9 +59,8 @@ function About() {
                     <div className="flex  flex-col items-center gap-4">
                         <button className="w-10 h-10 rounded-full border flex items-center justify-center hover:bg-black hover:text-white transition">
 
-                            <Link to="#contact">
-                                <Mail size={18} />
-                            </Link>
+                            <a href="https://x.com/IgnacioDAW"><Twitter size={18} /></a>
+
                         </button>
 
                         <button className="w-10 h-10 rounded-full border flex items-center justify-center hover:bg-black hover:text-white transition">
