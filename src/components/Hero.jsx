@@ -25,9 +25,9 @@ function Hero() {
                     <h2 className="text-orange-500 font-bold text-xl">
                         Ignacio Martin Bravo
                     </h2>
-                    <h1 className="text-4xl md:text-5xl font-bold">Web Application</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold"> Desarrollador de</h1>
                     <h1 className="text-4xl md:text-5xl font-bold md:ml-48">
-                        Developer
+                        Aplicaciones Web
                     </h1>
                     <br />
                     <p className="max-w-xl">
@@ -57,9 +57,9 @@ function Hero() {
             </div>
 
             {/* ABOUT */}
-            <div className="w-full flex flex-col md:flex-row  items-center mt-16 gap-10">
+            <div className="w-full flex flex-col-reverse md:flex-row items-center mt-16 gap-10">
                 <motion.section
-                    className="flex md:w-1/2"
+                    className="flex md:w-1/2 "
                     initial={{ scale: 0.8, opacity: 0 }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
@@ -73,7 +73,6 @@ function Hero() {
                         />
                     </div>
                 </motion.section>
-
                 <motion.section
                     className="md:w-1/2"
                     initial={{ opacity: 0, x: 50 }}
@@ -82,7 +81,7 @@ function Hero() {
                     transition={{ duration: 1 }}
                 >
                     <h1 className="text-4xl md:text-5xl font-bold mb-6 text-center md:text-left">
-                        About me
+                        Sobre mi
                     </h1>
 
                     <div className="space-y-6 max-w-lg mx-auto md:mx-0">
@@ -104,7 +103,10 @@ function Hero() {
                         ))}
                     </div>
                 </motion.section>
+
+
             </div>
+
         </>
     )
 }

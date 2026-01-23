@@ -12,16 +12,16 @@ function Projects() {
 
     return (
         <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold">My Projects</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">Mis Proyectos</h1>
             <p className="mt-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi beatae eum saepe dolor tempore provident quis maiores ipsum cupiditate quas doloremque, atque odio, omnis minima praesentium architecto sit earum totam.
+                He ralizado varios proyectos de diseño como ZetaBot una empresa inventada por mi , o SB UI Kit Pro que es un proyecto bastante grande, desarrollado en bootstrap de una pagina de paginas de pago , ademas de esto realice proyectos en  javascript como la pagina de STranger things que se conecta con una api  y java (si quiere saber sobre proyetos de esta teconologia contactame)
             </p>
 
-            <div className="flex justify-center w-full gap-10 mt-10">
+            <div className="flex flex-col sm:flex-row justify-center w-full gap-10 mt-10">
                 {projects.map((project, i) => (
                     <motion.div
                         key={i}
-                        className="w-[33%]"
+                        className="w-full sm:w-[33%]"
                         initial={{ opacity: 0, scale: 0.8 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}

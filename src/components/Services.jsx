@@ -3,56 +3,53 @@ import { motion } from "framer-motion";
 function Services() {
     const services = [
         {
-            title: "UI/UX",
+            title: "Integracion y mantenemiento",
             icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <rect x="3" y="4" width="18" height="14" rx="2" />
                     <path d="M7 8h10M7 12h6" />
                 </svg>
             ),
-            description: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+            description: "Integración de frameworks y librerías, corrección de errores y mantenimiento de proyectos web, asegurando escalabilidad y facilidad de mantenimiento.",
         },
         {
-            title: "Web Design",
+            title: "Desarrollador Web",
             icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <rect x="4" y="3" width="16" height="18" rx="2" />
                     <path d="M8 7h8M8 11h8M8 15h4" />
                 </svg>
             ),
-            description: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+            description: "Creación de sitios web funcionales y optimizados utilizando tecnologías web modernas, con código limpio, estructurado y adaptado a distintos dispositivos.",
         },
         {
-            title: "App Design",
+            title: "Maquetacion Responsive",
             icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <rect x="7" y="2" width="10" height="20" rx="2" />
                     <path d="M11 18h2" />
                 </svg>
             ),
-            description: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+            description: "Maquetación de interfaces con HTML y CSS, aplicando diseño responsive mediante Flexbox y Grid para asegurar una correcta visualización en cualquier pantalla.",
         },
         {
-            title: "Graphic Design",
+            title: "Desarrollo Front-end",
             icon: (
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <rect x="3" y="3" width="18" height="18" rx="2" />
                     <path d="M3 9h18" />
                 </svg>
             ),
-            description: "Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum",
+            description: "Integración de frameworks y librerías, corrección de errores y mantenimiento de proyectos web, asegurando escalabilidad y facilidad de mantenimiento.",
         },
     ];
 
     return (
-        <div className="text-center px-4 md:px-20 py-10 mt-16">
-            <h1 className="text-4xl md:text-5xl font-bold">Services</h1>
+        <div className="text-center px-4 md:px-20 py-10 mt-5">
+            <h1 className="text-4xl md:text-5xl font-bold">Servicios</h1>
 
             <p className="mt-6 md:mt-10 max-w-3xl mx-auto">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum sed,
-                porro aliquid cum ipsa magni, quibusdam modi officia perspiciatis animi
-                consectetur repellendus nobis quae dolor vitae aut molestiae! Velit,
-                enim!
+                Ofrezco servicios de desarrollo web orientados a la creación de aplicaciones y sitios funcionales, con especial atención a la estructura del código, el rendimiento y la adaptabilidad a distintos dispositivos.
             </p>
 
             <div className="max-w-6xl mx-auto px-2 md:px-6 py-10">

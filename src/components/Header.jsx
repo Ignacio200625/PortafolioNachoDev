@@ -3,6 +3,7 @@ import marca from "../assets/IconoPortfolio.jpg"
 import { useState } from 'react';
 import Button from './Button';
 import { Link } from 'react-router';
+
 import Curriculum from "../Files/Curriculum_Ignacio_Martin_Bravo.pdf"
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ function Header() {
                     <div className="div flex gap-5 whitespace-nowrap">
                         <Link to={"/"} className='hover:text-orange-500'>Home</Link>
                         <Link to={"https://github.com/Ignacio200625?tab=repositories"} className='hover:text-orange-500'>Projects</Link>
-                        <Link to={"/About"} className='hover:text-orange-500'>About</Link>
+                        <Link to={"/About"} className='hover:text-orange-500'>Sobre mi</Link>
                     </div>
                     <div className="div">
                         <a href={Curriculum} download>
@@ -54,8 +55,8 @@ function Header() {
                         </div>
                         <div className="div flex gap-5 whitespace-nowrap">
                             <p>Home</p>
-                            <p>Projects</p>
-                            <p>Contacts</p>
+                            <p>Proyectos</p>
+                            <p>Contactos</p>
                         </div>
                         <div className="div">
                             <a
@@ -63,7 +64,7 @@ function Header() {
                                 download
                                 className="bg-orange-500 text-white px-4 py-2 rounded-sm cursor-pointer hover:bg-orange-700"
                             >
-                                Download CV
+                                Descargar CV
                             </a>
                         </div>
 

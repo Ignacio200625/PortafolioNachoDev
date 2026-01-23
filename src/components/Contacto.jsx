@@ -26,10 +26,10 @@ function Contacto() {
     }
 
     return (
-        <div className="text-center mt-20">
+        <div id='contacto' className="text-center mt-20">
             <form action="" onSubmit={handleSubmit}>
-                <h1 className="  text-4xl md:text-5xl font-bold">Lets Develop together</h1>
-                <p className="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae accusamus debitis fugiat deserunt ducimus labore! Dolor a tempora vel nulla praesentium dignissimos, earum consequatur perferendis odio nesciunt aspernatur totam odit?</p>
+                <h1 className="  text-4xl md:text-5xl font-bold">Vamos a desarrollar juntos</h1>
+                <p className="mt-10">Contactame, escribe tu correo y realicemos grandes proeyctos.</p>
                 <div className="flex justify-center items-center mt-10 gap-10  ">
                     <Input placeholder="Introduce tu email" email={email} setEmail={setEmail} />
                     <Button text={loading ? "Sending..." : "Contact"} disabled={loading} />
