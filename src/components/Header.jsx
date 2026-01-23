@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Button from './Button';
 import { Link } from 'react-router';
 
-import Curriculum from "../Files/Curriculum_Ignacio_Martin_Bravo.pdf"
+import Curriculum from "../Files/Curriculum_Ignacio_Martín_Bravo.pdf"
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 

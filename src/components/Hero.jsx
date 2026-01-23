@@ -21,7 +21,7 @@ function Hero() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 1 }}
                 >
-                    <p className="font-bold">Hi I am</p>
+                    <p className="font-bold">Hola yo soy</p>
                     <h2 className="text-orange-500 font-bold text-xl">
                         Ignacio Martin Bravo
                     </h2>
