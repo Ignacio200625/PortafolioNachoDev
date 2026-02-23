@@ -23,7 +23,7 @@ function Projects() {
     const prevSlide = () => setCurrentIndex((prev) => (prev - 1 + projects.length) % projects.length);
 
     useEffect(() => {
-        const interval = setInterval(nextSlide, 3000);
+        const interval = setInterval(nextSlide, 5000);
         return () => clearInterval(interval);
     }, []);
 
