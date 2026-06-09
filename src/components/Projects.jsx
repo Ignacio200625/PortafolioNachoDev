@@ -54,7 +54,7 @@ function Projects() {
                     </motion.div>
                 </AnimatePresence>
 
-                {/* Botones */}
+       
                 <button
                     onClick={prevSlide}
                     className="absolute top-1/2 left-3 -translate-y-1/2 bg-orange-500 text-white rounded-full p-4 shadow-lg hover:bg-orange-600 transition"
@@ -64,7 +64,7 @@ function Projects() {
                     className="absolute top-1/2 right-3 -translate-y-1/2 bg-orange-500 text-white rounded-full p-4 shadow-lg hover:bg-orange-600 transition"
                 >▶</button>
 
-                {/* Indicadores */}
+
                 <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-3">
                     {projects.map((_, idx) => (
                         <div
